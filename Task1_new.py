@@ -1,6 +1,6 @@
 fout = open('Street_Centrelines.csv','r') #It will open and perform read operation in file StreetCenterlines.csv
 
-# update
+# update file
 def tuple_func():
     for i in fout:
         i = i.split(",")
