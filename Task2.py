@@ -14,7 +14,7 @@ def func(): # Fuction
 	  pass
 	for j in file1:
 	  j =j.strip()
-	  word = j.split(',')
+	  word = j.split(',') # seprating each word by comma
 	  if word2[10]=='ARTERIAL': # comapiring 10th word with given string
 	    street2 =word2[2] # put the word in the 3rd position in street
 	  if street2.lower() in street1: # comapiring the word in 3rd position with street
