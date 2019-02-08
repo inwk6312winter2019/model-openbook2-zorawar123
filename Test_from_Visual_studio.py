@@ -1,1 +1,1 @@
-print("Testing")
+print("Get clone file")
